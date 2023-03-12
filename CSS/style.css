@@ -6,16 +6,24 @@
     color: white;
 }
 
+
 .border-check {
-    border: solid red 1px;
+    /* border: solid red 1px; */
 }
 
 body {
     background-color: rgb(80, 24, 170);
 }
 
+@font-face {
+    font-family: Electric;
+    src: url(../fonts/Our\ Friend\ Electric.otf);
+}
+
 h1 {
+    font-family: Electric;
     font-size: 4rem;
+    color: black;
 }
 
 h2 {
@@ -33,8 +41,13 @@ nav {
     display: flex;
     margin-top: 1rem;
     margin-bottom: 2rem;
+    justify-content: space-evenly;
     /* position: sticky-top; */
     
+}
+
+hr {
+    color: white;
 }
 
 section {
