@@ -60,7 +60,8 @@ button {
 }
 
 a:hover, .nav-items:hover, button:hover {
-    color: rgb(26, 25, 25);
+    /* color: rgb(26, 25, 25); */
+    color: white;
     /* font-size: 28px; */
     background-color: rgb(119, 88, 167);
     /* background-color: rgb(147, 100, 100); */
