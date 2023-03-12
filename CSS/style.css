@@ -17,24 +17,35 @@ body {
 
 @font-face {
     font-family: Electric;
-    src: url(../fonts/Our\ Friend\ Electric.otf);
+    src: url(../fonts/GODOFWAR.TTF);
+}
+
+@font-face {
+    font-family: Phoenix;
+    src: url(../fonts/Phoenix\ Gaming.ttf);
 }
 
 h1 {
     font-family: Electric;
     font-size: 4rem;
-    color: black;
+    color: white;
 }
 
 h2 {
     margin-bottom: 0;
     font-size: 33px;
+    font-family: Electric;
+    margin-top: 10px;
 }
 
 a {
     text-decoration: none;
     color: white;
     font-size: 27px;
+}
+
+p, a, button {
+    font-family: Phoenix;
 }
 
 nav {
@@ -46,9 +57,6 @@ nav {
     
 }
 
-hr {
-    color: white;
-}
 
 section {
     height: 100vh;
@@ -61,6 +69,11 @@ section {
 .nav-items {
     padding: 0 0.6rem;
     color: black;
+    margin-top: 15px;
+}
+
+.navlink {
+    font-size: 30px;
 }
 
 button {
@@ -68,7 +81,7 @@ button {
     padding: 5px;
     margin-top: 20px;
     color: black;
-    font-size: 20px;
+    font-size: 25px;
     background-color: rgb(97, 53, 163);
     margin-left: 20px;
 }
@@ -123,8 +136,8 @@ a:hover, .nav-items:hover, button:hover {
 }
 
 .hero-p {
-    font-size: 30px;
-    margin-top: 10px;
+    font-size: 40px;
+    margin-top: 25px;
 }
 
 .stacks {
