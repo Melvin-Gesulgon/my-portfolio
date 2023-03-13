@@ -33,7 +33,7 @@ h1 {
 
 h2 {
     margin-bottom: 0;
-    font-size: 33px;
+    font-size: 2rem;
     font-family: Electric;
     margin-top: 10px;
 }
@@ -41,7 +41,7 @@ h2 {
 a {
     text-decoration: none;
     color: white;
-    font-size: 27px;
+    font-size: 3rem;
 }
 
 p, a, button {
@@ -73,7 +73,7 @@ section {
 }
 
 .navlink {
-    font-size: 30px;
+    font-size: 2.2rem;
 }
 
 button {
